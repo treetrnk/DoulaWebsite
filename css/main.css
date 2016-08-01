@@ -1,11 +1,19 @@
+* {
+  margin: 0px;
+}
+
 html, body {
   font-family: Helvetica;
 }
 
+.section {
+  display: flex;
+  height: 100%;
+}
+
 .content {
   max-width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
 }
 
 header {
@@ -30,3 +38,20 @@ header {
   border: 1px solid #aaa;
   border-radius: 10px;
 }
+
+#about {
+  background: #eee;
+}
+
+#services {
+  background: #fff;
+}
+
+#pricing {
+  background: #eee;
+}
+
+footer {
+  background: #fff;
+}
+
